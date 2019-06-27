@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700|PT+Serif:400,700,700i&display=swap');
+body{
+	font-family: 'PT Serif', serif;
+	font-family: 'Noto Serif', serif;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+header{
+    height: 60px;
+    margin: 10px 0;
+}
+header h2{
+	display: inline-block;
+	font-size: 25px;
+	font-family: 'PT Serif', serif;
+	text-transform: uppercase;
+	color: #2f2f2f;
+	font-weight: 900;
+	margin-right: 10px;
+}
+header span{
+    width: 70px;
+    height: 2px;
+    background: #000;
+    display: inline-block;
+    vertical-align: middle;
+}
+header a{
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+header a:hover{
+	text-decoration: none;
+
+}
+.logo img{
+	max-width: 100%;
+}
+
+
+
+.banner{}
+.banner-content{}
+.banner-content h1{
+	font-family: 'Noto Serif', serif;
+	font-size: 95px;
+	font-weight: 700;
+	padding-bottom: 30px;
+}
+.banner-content p{
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.blog-section{
+	padding:6% 0;
+}
+.blog-content{}
+.blog-content h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+.blog-content p{
+    font-size: 20px;
+    font-weight: 200;
+    margin: 20px 0;
+}
+.company-section{}
+.heading{
+	position: relative;
+}
+.heading span{
+	width: 20%;
+	height: 1px;
+	display: inline-block;
+	background:#000;
+	vertical-align: middle;
+}
+.heading h3{
+	font-size: 25px;
+	display: inline-block;
+}
+.heading h4{
+    font-size: 30px;
+    font-weight: 700;
+    max-width: 550px;
+}
+.we-do-content{
+    position: relative;
+}
+.we-do-content img{
+    z-index: -1;
+}
+.we-do-content h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 5px 10px;
+}
+.we-do-content span i{
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    font-size: 25px;
+    color: #ddd;
+    background: #7b3c3cdd;
+    padding: 15px 20px;
+    box-shadow: 2px 4px 3px #3a3a3a;
+    cursor: pointer;
+    display:block;
+}
+.form-section{
+    background: #ddd;
+    padding: 50px 0;
+}
+.form-content{}
+.form-content h2{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.form-content p{
+    font-size: 18px;
+    font-weight: 100;
+}
+.form-content input[type=text]{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #484848;
+    margin-bottom: 15px;
+    background: transparent;
+    padding: 10px 10px;
+}
+.form-content input[type=number],.form-content input[type=email]{
+    width: 44%;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid #484848;
+    margin-right: 25px;
+    padding: 10px 15px;
+    background: transparent;
+}
+.form-content a{
+    margin-top: 10%;
+    display: inline-block;
+    background: #000;
+    padding: 10px 10px;
+    color: #fff;
+    box-shadow: 1px 1px 15px #313131;
+}
+.form-content a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+footer{
+    background: #35293a;
+    text-align: center;
+    padding: 25px 0;
+}
+.foot-content h2{color: #fff;font-weight: 700;}
